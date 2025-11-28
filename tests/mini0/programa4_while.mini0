@@ -1,0 +1,15 @@
+// Bucle while/loop
+fun main(): int
+    contador: int
+    suma: int
+    
+    contador = 0
+    suma = 0
+    
+    while contador < 10
+        suma = suma + contador
+        contador = contador + 1
+    loop
+    
+    return suma
+end

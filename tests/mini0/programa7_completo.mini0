@@ -1,0 +1,37 @@
+// Programa completo con todas las características
+global_var: int
+
+fun factorial(n: int): int
+    resultado: int
+    
+    if n <= 1
+        resultado = 1
+    else
+        resultado = n * factorial(n - 1)
+    end
+    
+    return resultado
+end
+
+fun main(): int
+    x: int
+    y: int
+    arr: []int
+    
+    global_var = 100
+    x = 5
+    y = factorial(x)
+    
+    arr = new [3] int
+    arr[0] = x
+    arr[1] = y
+    arr[2] = global_var
+    
+    if arr[1] >= 120
+        return arr[1]
+    else if arr[1] >= 100
+        return arr[0]
+    else
+        return 0
+    end
+end

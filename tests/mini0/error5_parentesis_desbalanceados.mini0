@@ -1,0 +1,8 @@
+// Error: paréntesis desbalanceados
+fun main(): int
+    x: int
+    y: int
+    x = (10 + 5
+    y = x * 2
+    return y
+end

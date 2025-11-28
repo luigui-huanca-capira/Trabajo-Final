@@ -1,0 +1,6 @@
+// Error: carácter inválido
+fun main(): int
+    x: int
+    x = 10 @ 5
+    return x
+end

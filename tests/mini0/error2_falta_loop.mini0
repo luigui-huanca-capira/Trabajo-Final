@@ -1,0 +1,11 @@
+// Error: falta loop en while
+fun main(): int
+    x: int
+    x = 0
+    
+    while x < 10
+        x = x + 1
+    // Falta loop aquí
+    
+    return x
+end

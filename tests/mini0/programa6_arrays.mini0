@@ -1,0 +1,18 @@
+// Arrays y acceso a índices
+fun main(): int
+    numeros: []int
+    i: int
+    suma: int
+    
+    numeros = new [10] int
+    i = 0
+    suma = 0
+    
+    while i < 10
+        numeros[i] = i * 2
+        suma = suma + numeros[i]
+        i = i + 1
+    loop
+    
+    return suma
+end

@@ -1,0 +1,6 @@
+// Error: tipo inválido
+fun main(): int
+    x: integer
+    x = 10
+    return x
+end

@@ -1,0 +1,6 @@
+// Error: falta end en la función
+fun main(): int
+    x: int
+    x = 10
+    return x
+// Falta end aquí

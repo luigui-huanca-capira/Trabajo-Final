@@ -1,0 +1,8 @@
+// Error: expresión incompleta
+fun main(): int
+    x: int
+    y: int
+    x = 10 +
+    y = x
+    return y
+end

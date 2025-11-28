@@ -1,0 +1,19 @@
+// Expresiones aritméticas, relacionales y lógicas
+fun main(): int
+    a: int
+    b: int
+    c: int
+    resultado: bool
+    
+    a = 10
+    b = 20
+    c = (a + b) * 2 - 5
+    
+    resultado = (a < b) and (c > 30) or not (a = 0)
+    
+    if resultado
+        return 1
+    else
+        return 0
+    end
+end
